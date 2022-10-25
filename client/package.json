@@ -10,11 +10,12 @@
     "minimatch": "^5.1.0",
     "moment": "^2.29.4",
     "node-fetch": "^3.2.10",
+    "npm": "^8.19.2",
     "nth-check": "^2.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-file-base64": "^1.0.3",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^0.9.3",
     "redux": "^4.2.0",
     "redux-thunk": "^2.4.1",
     "web-vitals": "^2.1.4"
