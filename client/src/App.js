@@ -16,7 +16,7 @@ const App = () => { // functional component
       dispatch(getPosts)
   }, [dispatch])
   return (
-    <Container maxwidth = "lg">
+    <Container maxwidth="lg">
       <AppBar className={classes.appBar} position="static" color="inherit">
         <Typography className={classes.heading} variant="h2" align="center">Memories</Typography>
         <center><img className={classes.image} src={memories} alt="memories" height="100" width="120" /></center>

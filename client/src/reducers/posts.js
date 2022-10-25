@@ -6,7 +6,7 @@
 export default (posts = [], action) => { // state/posts cannot be empty
   switch (action.type) {
     case 'FETCH_ALL': // fetching all the posts
-      return posts;
+      return action.payload;
     case 'CREATE':
       return posts;
       default:
